@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".conceptMenu").click(function(){
+                $("html, body").animate({ scrollTop: $(".concept").offset().top -60}, 1000);
+                return false;
+            });
+            $(".galleryMenu").click(function(){
+                $("html, body").animate({ scrollTop: $(".gallery").offset().top -60}, 1000);
+                return false;
+            });
+            $(".reviewMenu").click(function(){
+                $("html, body").animate({ scrollTop: $(".review").offset().top -60}, 1000);
+                return false;
+            });
+            $(".blogMenu").click(function(){
+                $("html, body").animate({ scrollTop: $(".blog").offset().top -60}, 1000);
+                return false;
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <!-- <header> -->
+        <div id="top">
+            <div class="wrap">
+                <div class="left">
+                    <ul>
+                        <li><a href="#">Tel. +85297300934</a></li>
+                        <li><a href="#">info@theaisle.work</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#">SIGNIN</a></li>
+                        <li><a href="#">SIGNUP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="bottom">
+            <div class="wrap">
+                <ul>
+                    <li class="conceptMenu"><a href="#">CONCEPT</a></li>
+                    <li class="galleryMenu"><a href="#">GALLERY</a></li>
+                    <li class="logoMenu"><a href="#"><img src="./img/logo-dark.png" alt="웨딩 로고"></a></li>
+                    <li class="reviewMenu"><a href="#">REVIEW</a></li>
+                    <li class="blogMenu"><a href="#">BLOG</a></li>
+                </ul>
+            </div>
+        </div>
+    <!-- </header> -->
+
+    <main>
+        <input type="radio" name="bar" id="b_1" checked>
+        <input type="radio" name="bar" id="b_2"> 
+        <input type="radio" name="bar" id="b_3">
+        
+        <div class="slide_part">
+            <div class="slide_bg bg1"></div>
+            <div class="slide_bg bg2"></div>
+            <div class="slide_bg bg3"></div>
+        </div>
+
+        <div class="bar_part">
+            <ol>
+                <li><label for="b_1"></label></li>
+                <li><label for="b_2"></label></li>
+                <li><label for="b_3"></label></li>
+            </ol>                
+        </div>  
+        <div class="wrap">
+            <h3 class="font_jose">WELCOME TO THE BEST DAY IN OUR LIVES</h3>
+            <h1 class="font_great">Our Wedding!</h1>
+        </div>     
+    </main>
+
+    <section id="concept" class="concept">
+        <div class="wrap">
+            <div class="title">
+                <h2>CONCEPT</h2>
+            </div>
+            <div class="content">
+                <div class="contBox">
+                    <div class="icon_part"><img src="./img/h3-icon-1.png" alt="반지 아이콘"></div>
+                    <div class="txt_part">
+                        <div class="t_wrap">
+                            <div class="sub_title">
+                                <h3 class="font_great">Engagement Ceremony</h3>
+                            </div>
+                            <div class="text">
+                                <p>Taking into an account more than 300 guests that are gonna attend, we plan for a huge party! It will come with awesome live rock music, just as well as a DJ, delicious food and sparkling alcohol that’s all on us!</p>
+                                <a href="#">+ Detail More</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="contBox">
+                    <div class="icon_part"><img src="./img/h3-icon-3.png" alt="카메라 아이콘"></div>
+                    <div class="txt_part">
+                        <div class="t_wrap">
+                            <div class="sub_title">
+                                <h3 class="font_great">Weding Photo</h3>
+                            </div>
+                            <div class="text">
+                                <p>All the emotions that we try to take pictures, you are real.</p>
+                                <p><span>PHOTOGRAPHY</span> - Shooting portraits and interiors</p>
+                                <p><span>PHOTO RETOUCH</span> - Processing and color correction of photos</p>
+                                <p><span>VIDEO SHOOTING</span> - Shooting and editing wedding video clips</p>
+                                <a href="#">+ Detail More</a>
+                            </div>                            
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="contBox">
+                    <div class="icon_part"><img src="./img/h3-icon-4.png" alt="케익 아이콘"></div>
+                    <div class="txt_part">
+                        <div class="t_wrap">
+                            <div class="sub_title">
+                                <h3 class="font_great">Wedding Reception</h3>
+                            </div>
+                            <div class="text">
+                                <p>After the ceremony, we generally take the remaining family portraits. We prefer for you to go 
+                                    straight to your cocktail hour at this time and to grab you during dinner for quick portraits closer to
+                                     sunset. For a typical 8 hour wedding day...</p>
+                                <a href="#">+ Detail More</a>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <section id="midBanner">
+        <div class="wrap">
+            <h3 class="font_great">Special Memories</h3>
+            <p>We will provide you with a valuable experience
+               through our special wedding packages.</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="wrap">
+            <div class="g_top">
+                <div class="title"><h2>GALLERY</h2></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="empty"></div>                
+            </div>
+            <div class="g_bottom">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>            
+        </div>
+    </section>
+
+    <section id="review" class="review">
+        <div class="dark">
+            <div class="wrap">
+                <div class="title"><h2>REVIEW</h2></div>
+                <div class="content">
+                    <div class="cont_top">
+                        <div class="img_part"><div class="img"></div></div>
+                        <div class="txt_part">
+                        <h3 class="font_great">Ben Peterson</h3>
+                        <h4 class="font_jose">Written by the Bride</h4>
+                        <p>Logan is my oldest friend. He is charming, responsible, quirky, God-loving, and 
+                            heartfelt all in one package. I was introduced to this awesome dude for the first time 
+                            ever on an impromptu trip to the local…</p>
+                        </div>
+                    </div>
+
+                    <div class="cont_bottom">
+                        <div class="img_part"><div class="img"></div></div>
+                        <div class="txt_part">
+                        <h3 class="font_great">Jen Wallace</h3>
+                        <h4 class="font_jose">Written by the Groom</h4>
+                        <p>Though she is the sweetest person on Earth, sometimes she can be intimidating as 
+                            well. Or that was just me thinking of doing a proposal and horrified at the thought 
+                            that she might refuse it..</p>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="wrap">
+            <div class=" contBox title">
+                <h2>BLOG</h2>
+                <p>And now these three remain: faith, hope and love. But the greatest of these is love. How we decided that we should be together forever!</p>
+            </div>
+
+            <div class="contBox txt">
+                <div class="c_wrap">
+                    <h3  class="font_great">The Proposal</h3>
+                    <h4>July 13, 2020</h4>
+                    <div class="line"></div>
+                    <p>Coming up with a unique 
+                        proposal idea was challenging, 
+                        indeed. After months of 
+                        delays…</p>
+                </div>
+            </div>
+
+            <div class="contBox txt">
+                <div class="c_wrap">
+                    <h3 class="font_great">Quick Note About the Gifts</h3>
+                    <h4>July 12, 2020</h4>
+                    <div class="line"></div>
+                    <p>But we are asking in love and 
+                        sincerity that you choose to 
+                        bless us only…</p>
+                </div>
+            </div>
+
+            <div class="contBox txt">
+                <div class="c_wrap">
+                    <h3  class="font_great">Tips for Out-of-Towners</h3>
+                    <h4>July 07, 2020</h4>
+                    <div class="line"></div>
+                    <p>Talking about those of our 
+                        guests who will come from 
+                        afar, fly into the San Diego 
+                        International Airport…</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="invitation">
+        <div class="wrap">
+            <div class="txt_part">
+                <h2 class="font_great">Wedding Invitation</h2>
+                <div class="line"></div>
+                <p>Please reply and indicate whether you will be able to attend</p>
+            </div>
+            <div class="input_part">
+                <input type="text" id="username" placeholder="NAME">
+                <input type="text" id="useremai" placeholder="EMAIL">
+                <input type="text" id="usermobile" placeholder="PHONE">
+            </div>
+            <div class="btn_part">
+                <button>RESERVATION</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners">
+        <div class="wrap">
+           <div class="p_name title"> 
+               <h2>PARTNERS</h2>
+           </div>
+           <div class="p_name">
+               <a href="#">
+                <img src="./img/client-1-haver.png" onmouseover="src='./img/client-1-haver.png'" onmouseout="src='./img/client-1-1.png'" alt="">
+               </a>               
+            </div>
+           <div class="p_name">
+               <a href="#">
+                <img src="./img/client-4-haver.png" onmouseover="src='./img/client-4-haver.png'" onmouseout="src='./img/client-4-1.png'" alt="">
+               </a>               
+            </div>
+           <div class="p_name">
+               <a href="#">
+                <img src="./img/client-5-haver.png" onmouseover="src='./img/client-5-haver.png'" onmouseout="src='./img/client-5-1.png'" alt="">
+               </a>               
+            </div>
+           <div class="p_name">
+               <a href="#">
+                <img src="./img/client-7-haver.png" onmouseover="src='./img/client-7-haver.png'" onmouseout="src='./img/client-7-1.png'" alt="">
+               </a>               
+            </div>
+           <div class="p_name">
+               <a href="#">
+                <img src="./img/client-8-haver.png" onmouseover="src='./img/client-8-haver.png'" onmouseout="src='./img/client-8.png'" alt="">
+               </a>               
+            </div>   
+        </div>
+    </section>
+
+    <footer>        
+        <img src="./img/section-title-img-1.png" alt="">
+        <p>COPYRIGHTS ⓒ AIRLE. ALL RIGHTS RESERVED</p>
+        <img class="rotate" src="./img/section-title-img-1.png" alt=""> 
+    </footer>
+
+
+
+
+
+
+
+    <!--
+    <section id="concept">
+        <div class="wrap">
+            <div class="title">
+                <h2>CONCEPT</h2>
+            </div>
+        </div>
+    </section>
+    -->
+    
+</body>
+</html>
